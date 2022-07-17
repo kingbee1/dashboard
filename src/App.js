@@ -3,12 +3,12 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { FiSettings } from 'react-icons/fi'
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components'
-import { Ecommerce, Orders, Calendar, Kanban, Area, Pie, Financial, ColorMapping, ColorPicker, Bar, Editor, Pyramid, Stacked, Customers } from './pages'
+import { Ecommerce, Orders, Calendar, Kanban, Area, Pie, Financial, ColorMapping, Line, Employees, ColorPicker, Bar, Editor, Pyramid, Stacked, Customers } from './pages'
 
 import './App.css';
 
 const App =()=> {
-  const activeMenu = false;
+  const activeMenu = true;
   return (
     <div>
       <BrowserRouter>
@@ -44,8 +44,8 @@ const App =()=> {
           <div>
             <Routes>
               {/* dashbord */}
-              <Route path="/" element={<eCommerc />} />
-              <Route path="/ecommerce" element={<eCommerce />} />
+              <Route path="/" element={<Ecommerce />} />
+              <Route path="/ecommerce" element={<Ecommerce />} />
 
               {/* Pages */}
               <Route path="/orders" element={<Orders />} />
