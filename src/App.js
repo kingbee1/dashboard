@@ -43,7 +43,7 @@ const App =()=> {
               <Navbar />
 
             </div>
-          </div>
+          
           <div>
             <Routes>
               {/* dashbord */}
@@ -72,6 +72,7 @@ const App =()=> {
               <Route path="/stacked" element={<Stacked />} />
 
             </Routes>
+          </div>
           </div>
         </div>
       </BrowserRouter>
