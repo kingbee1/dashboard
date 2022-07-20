@@ -564,21 +564,21 @@ export const cartData = [
       product5,
     name: 'butterscotch ice-cream',
     category: 'Milk product',
-    price: '$250',
+    price: '₦250',
   },
   {
     image:
       product6,
     name: 'Supreme fresh tomato',
     category: 'Vegetable Item',
-    price: '$450',
+    price: '₦450',
   },
   {
     image:
       product7,
     name: 'Red color candy',
     category: 'Food Item',
-    price: '$190',
+    price: '₦190',
   },
 ];
 
@@ -930,8 +930,8 @@ export const customersData = [
     Status: 'Active',
     StatusBg: '#8BE78B',
     Weeks: '40',
-    Budget: '$2.4k',
-    Location: 'India',
+    Budget: '₦20,000',
+    Location: 'Nigeria',
   },
   {
     CustomerID: 1002,
@@ -959,7 +959,7 @@ export const customersData = [
       avatar4,
     StatusBg: '#FEC90F',
     Weeks: '19',
-    Budget: '$24.5k',
+    Budget: '₦24.5k',
     Location: 'USA',
   },
   {
@@ -973,7 +973,7 @@ export const customersData = [
       avatar,
     StatusBg: '#8BE78B',
     Weeks: '34',
-    Budget: '$16.5k',
+    Budget: '₦16.5k',
     Location: 'USA',
   },
   {
@@ -987,7 +987,7 @@ export const customersData = [
       avatar2,
     StatusBg: 'red',
     Weeks: '34',
-    Budget: '$16.5k',
+    Budget: '₦16.5k',
     Location: 'USA',
   },
   {
